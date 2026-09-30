@@ -60,7 +60,7 @@ Avast uyarı penceresinde doğrudan **"Çalıştır"** / **"Güvenilir olarak i�
 Her sürümün notlarında kurulum dosyasının **SHA-256** özeti yazılıdır. PowerShell'de:
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\DeskPockets-Kurulum-1.0.0.exe" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\DeskPockets-Kurulum-*.exe" -Algorithm SHA256
 ```
 
 Çıkan değer sürüm notlarındakiyle **birebir aynıysa** dosya değiştirilmemiştir. Farklıysa dosyayı
